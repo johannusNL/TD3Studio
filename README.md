@@ -34,7 +34,7 @@ Never before has programming the TD-3 been this easy. Drop a MIDI file on the in
 
 ## Requirements
 
-- Windows 10 or 11 (64-bit).
+- Windows 10 or 11 (64-bit), or macOS 11 or later (Apple Silicon and Intel).
 - A Behringer **TD-3** or **TD-3-MO** connected over USB for WRITE, BACKUP and playing through the device. Without hardware everything works through the simulator.
 - No account, no licence key, no subscription. Updates are included: TD3 Studio checks once a day and installs new versions with one click.
 
@@ -42,13 +42,13 @@ Never before has programming the TD-3 been this easy. Drop a MIDI file on the in
 
 1. Open the download link in your purchase e-mail and save `TD3Studio-Setup-x.y.z.exe`.
 2. Run it. It installs per user (no administrator password) into `%LOCALAPPDATA%\Programs\TD3 Studio` and adds a Start-menu entry.
-3. Windows SmartScreen may show *"Windows protected your PC"* the first time, because the installer is not yet code-signed. Click **More info › Run anyway**.
+3. Windows SmartScreen may show *"Windows protected your PC"* the first time, because the installer is not yet code-signed. Click **More info › Run anyway**. On a Mac, open the disk image, drag TD3 Studio into Applications and start it once with **right-click › Open**.
 
 ## Buying
 
 TD3 Studio is **€20, one-off** — no subscription, no licence key.
 
-**[Buy TD3 Studio → app.pennywise-software.com/td3studio](https://app.pennywise-software.com/td3studio)** (iDEAL, Apple Pay, Google Pay, cards)
+**[Buy TD3 Studio → app.pennywise-software.com/td3studio](https://app.pennywise-software.com/td3studio)** (iDEAL, Apple Pay, Google Pay, cards). Choose Windows or macOS at checkout; the choice is final — a licence for the other platform costs €15 later with the same e-mail address.
 
 The download link and invoice arrive by e-mail right after payment; every future version installs itself from inside the app. See the [installation guide](https://app.pennywise-software.com/td3studio/install) for the one-time Windows SmartScreen notice. Questions and ideas: [Issues](https://github.com/johannusNL/TD3Studio/issues).
 

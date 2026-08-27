@@ -5,6 +5,7 @@
 - macOS build (Apple Silicon and Intel, macOS 11 or later) as a disk image; settings live in `~/Library/Application Support/TD3 Studio`.
 - Small screens: the instrument scales down so a 13-inch laptop fits the plate with both the HELP and LIBRARY housings open; the window shrinks to the screen it opens on.
 - The update check picks the installer for its platform; on macOS the downloaded disk image opens in Finder.
+- Report an issue... under the setup key opens a GitHub issue with the version and your setup filled in.
 
 ## 1.0.0 — 2026-08-27
 

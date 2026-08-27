@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3 — 2026-08-27
+
+- Report an issue... is now a form inside the app: what happened plus an optional e-mail address, sent with your version and setup attached. No GitHub account needed.
+
 ## 1.0.2 — 2026-08-27
 
 - Links open in the browser again: Credits and Report an issue... did nothing on both Windows and macOS.

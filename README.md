@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">TD3 Studio</h1>
-<p align="center"><b>Never before has programming the TD-3 been this easy.</b></p>
+<p align="center"><b>Never before has programming the TD-3 been this easy.</b> · <a href="https://www.td3-studio.com">www.td3-studio.com</a></p>
 
 <p align="center">
   <a href="https://app.pennywise-software.com/td3studio"><b>Buy TD3 Studio — €20, one-off</b></a> &nbsp;·&nbsp;

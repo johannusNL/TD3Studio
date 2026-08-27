@@ -6,8 +6,9 @@
 <p align="center"><b>Never before has programming the TD-3 been this easy.</b></p>
 
 <p align="center">
-  <a href="#buying"><b>Buy TD3 Studio — €20, one-off</b></a> &nbsp;·&nbsp;
-  <a href="https://github.com/johannusNL/TD3Studio/releases">Release notes</a> &nbsp;·&nbsp;
+  <a href="https://app.pennywise-software.com/td3studio"><b>Buy TD3 Studio — €20, one-off</b></a> &nbsp;·&nbsp;
+  <a href="CHANGELOG.md">Release notes</a> &nbsp;·&nbsp;
+  <a href="https://www.youtube.com/@td3studio">YouTube</a> &nbsp;·&nbsp;
   <a href="https://www.instagram.com/td3studio">@td3studio</a>
 </p>
 
@@ -45,7 +46,11 @@ Never before has programming the TD-3 been this easy. Drop a MIDI file on the in
 
 ## Buying
 
-TD3 Studio is **€20, one-off**, including VAT, through Lemon Squeezy (iDEAL, cards, PayPal). The installer arrives by e-mail right after payment; every future version installs itself from inside the app. Questions and ideas: [Issues](https://github.com/johannusNL/TD3Studio/issues).
+TD3 Studio is **€20, one-off** — no subscription, no licence key.
+
+**[Buy TD3 Studio → app.pennywise-software.com/td3studio](https://app.pennywise-software.com/td3studio)** (iDEAL, Apple Pay, Google Pay, cards)
+
+The download link and invoice arrive by e-mail right after payment; every future version installs itself from inside the app. See the [installation guide](https://app.pennywise-software.com/td3studio/install) for the one-time Windows SmartScreen notice. Questions and ideas: [Issues](https://github.com/johannusNL/TD3Studio/issues).
 
 <p align="center">
   <img src="docs/library.png" alt="The library" width="800">

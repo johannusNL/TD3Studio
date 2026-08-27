@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2 — 2026-08-27
+
+- Links open in the browser again: Credits and Report an issue... did nothing on both Windows and macOS.
+
 ## 1.0.1 — 2026-08-27
 
 - macOS build (Apple Silicon and Intel, macOS 11 or later) as a disk image; settings live in `~/Library/Application Support/TD3 Studio`.

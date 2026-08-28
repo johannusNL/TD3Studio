@@ -22,7 +22,8 @@ Never before has programming the TD-3 been this easy. Drop a MIDI file on the in
 
 - **MIDI → pattern.** Any Standard MIDI file becomes a TD-3 pattern. A timeline above the plate shows the whole clip; drag the amber window, scroll it, step by bar, or zoom in with Ctrl + scroll to place the offset to the step. The root note follows the notes in the window.
 - **The plate is the TD-3.** Sixteen step cells with note, octave, accent (amber) and slide (red). Click to select, scroll to move a semitone, modifier-click for accent / slide / tie / rest. Ctrl + Z undoes.
-- **Play it in.** A three-octave keyboard under the plate, with 303-style step recording: press REC, and every key, TIE or REST fills the next step. Plug in a MIDI keyboard and play instead — velocity gives accents, legato gives slides.
+- **Play it in — or start from scratch.** NEW gives an empty plate. A three-octave keyboard under it, with 303-style step recording: press REC, and every key, TIE or REST fills the next step. Plug in a MIDI keyboard and play instead — velocity gives accents, legato gives slides.
+- **One modifier, everywhere.** Hold Shift for an accent or Ctrl for a slide (Cmd on a Mac) while you play a key or click a step; Alt ties, Ctrl+Alt rests. The same keys whether the note came from a file, the screen or your keyboard.
 - **Hear it.** OUTPUT goes to the TD-3's own USB port, another MIDI output, or the built-in simulator through your speakers — saw or square, resonant filter, envelope, accent and slides, driven by the tone knobs on the plate.
 - **Write and back up.** PATTERN GROUP, pattern keys and BANK A/B pick the slot on the device; WRITE stores the pattern there, BACKUP fetches all 64 into a folder.
 - **A library.** Your own folder of `.syx`, SynthTribe `.seq` / `.sqs` and `.mid` files, plus 107 bundled TB-303 lines by Acid-Tabs. Click a row to hear it, click again to open it. The Online tab searches free MIDI archives and downloads into your folder.

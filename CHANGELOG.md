@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.1.0 — 2026-08-30
+
+A feature release: the track, and the TD-3's setup without SynthTribe.
+
+- **The TRACK**: queue patterns with the + in the library or TO TRACK on the plate, and they play back to back, handing over exactly on the bar. The bay under the keyboard reorders them with arrows, renames them in place, and a double-click puts one back on the plate. Write to... stores the track as a run of slots on the device, with a step-by-step walkthrough to save it as a real track there.
+- **Device setup...** under the setup key: the TD-3's own settings over USB — MIDI channels, accent threshold, key priority, multi-trigger, clock, transpose, pitch bend range — plus the firmware version. No SynthTribe needed.
+- **READ** next to WRITE fetches any slot onto the plate; READ, pick another slot, WRITE is the panel's copy/paste.
+- **RANDOM** next to CLEAR rolls a fresh acid line on the minor pentatonic, with rests, ties, accents, slides and octave jumps.
+- The up octave is reachable at last: scrolling a cell walks past the upper C to C# up … B up and the top C. + / - move the selected step an octave; Ctrl + / - transpose the whole pattern a semitone, with Shift an octave.
+- A long MIDI file's + asks to place the window on the plate first; the introduction grew a card that demonstrates the track.
+
 ## 1.0.7 — 2026-08-30
 
 - Windows: settings now live in `%APPDATA%\TD3 Studio` (the folder carried the project's old working name); settings saved by an earlier build move over automatically.

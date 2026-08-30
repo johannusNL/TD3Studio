@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.6 — 2026-08-30
+
+- macOS: the update check and Report an issue work again. A stray newline in the build's baked-in token made every request fail — the check then pretended you were up to date, and a report ended in "authorization header is not a string".
+
 ## 1.0.5 — 2026-08-30
 
 - The step cells reach the up octave: scrolling a cell walks past the upper C into C# up through B up, to the C two octaves above the root — the same range the TD-3 itself plays.

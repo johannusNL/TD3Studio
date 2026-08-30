@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.7 — 2026-08-30
+
+- Windows: settings now live in `%APPDATA%\TD3 Studio` (the folder carried the project's old working name); settings saved by an earlier build move over automatically.
+- Housekeeping under the hood: the code base carries the product name throughout.
+
 ## 1.0.6 — 2026-08-30
 
 - macOS: the update check and Report an issue work again. A stray newline in the build's baked-in token made every request fail — the check then pretended you were up to date, and a report ended in "authorization header is not a string".

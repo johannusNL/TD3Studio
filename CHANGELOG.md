@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.5 — 2026-08-30
+
+- The step cells reach the up octave: scrolling a cell walks past the upper C into C# up through B up, to the C two octaves above the root — the same range the TD-3 itself plays.
+- New shortcuts: + and - move the selected step an octave up or down (the TD-3's up/dn transpose), keeping the note.
+- The help explains the up/dn octave flag shown under a step's note.
+
 ## 1.0.4 — 2026-08-28
 
 - Report an issue or request a feature...: the form now has two categories, Something is wrong and Feature request, so requests land in the right place.

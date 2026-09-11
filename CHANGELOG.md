@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.3.0 — 2026-09-11
+
+Pattern length on the plate, and an update ring.
+
+- **STEPS** beside BANK B sets the pattern's length — the same one FUNCTION + STEP sets on the TD-3. Use - and +, or scroll over it like a note; the cells past the last step go dark. The length is stored in the pattern, so it goes to the device with every WRITE. Before, the length and triplet time could only be set through the MIDI conversion; both now edit any pattern, from the library or an empty one, and the Pattern settings in the HELP housing show for every loaded pattern.
+- Changing the length no longer rebuilds a converted clip, so hand edits survive it.
+- **Update ring**: under the setup key, choose *Updates: the latest build* or *Updates: one version behind*. One behind keeps you on the release before the newest — a fresh release waits until the next one is out — and from the newest it offers that release as a step back, clearly marked, with its own button. Windows, macOS and Linux.
+
+## 1.2.0 — 2026-09-08
+
+Linux, Spanish, and a quieter scroll wheel.
+
+- **Linux**: TD3 Studio now ships as an x86_64 AppImage (Ubuntu 22.04 or newer, any distribution from 2022 on). The first start from the AppImage puts the app in the app menu and lets you pin it to the dock; the updater replaces the AppImage in place. MIDI goes through ALSA, so the TD-3 must show up in `aconnect -l`. Runs on a roomier audio buffer so the simulator does not crackle under PipeWire or in a virtual machine.
+- **Spanish interface**: pick the language at the first start or under the setup key. Everything in the app is translated; the plate's own printing stays as on the TD-3.
+- Scroll wheel: turning a cell, a knob, the selector or the timeline no longer scrolls the whole window along.
+- Help: a new topic *The TD-3 in a DAW* — Ableton MIDI and audio routing, External Instrument, sync, and what TD3 Studio does and does not do next to a DAW. READ joined the plate topic.
+
 ## 1.1.0 — 2026-08-30
 
 A feature release: the track, and the TD-3's setup without SynthTribe.

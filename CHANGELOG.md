@@ -1,5 +1,42 @@
 # Changelog
 
+## 1.4.2 — in beta
+
+Offered in the app under the setup key, *Updates: beta builds*. Latest beta: 1.4.2-beta.3, 2026-10-03.
+
+- **WRITE keeps the pattern as it plays in TD3 Studio.** As soon as a pattern had a rest or a tie, notes, accents and slides landed on the wrong steps after WRITE: the TD-3 keeps one entry per played note, not one per step, and TD3 Studio wrote one per step. Checked on a TD-3-MO by letting its own sequencer play the written pattern. Patterns read from the TD-3 (READ, BACKUP) and SynthTribe `.seq` files now open with every note on its own step too. A `.syx` saved with an earlier version that has rests or ties opens the way the TD-3 plays it.
+- **MIDI learn**: Setup key › *MIDI learn...* binds the plate's knobs — Tuning, Cut Off, Resonance, Env Mod, Decay, Accent, Volume and Tempo — to a MIDI controller. Learn beside a knob, turn the controller knob; Clear and Clear all remove bindings. Bindings and the input are remembered.
+- A speed per bound knob — x1, x2, x4 or x8 — so an endless encoder covers the whole knob in about one turn.
+- The knobs drive the simulator and the tempo; the TD-3's own filter knobs are analogue and cannot be moved over MIDI.
+
+## 1.4.1 — 2026-09-24
+
+The simulator sounds like a real TD-3.
+
+- The simulator's voice is rebuilt on Open303 (Robin Schmidt, MIT) — the 303's diode-ladder filter, its saw and square, the accent circuit — and then measured against a TD-3-MO and fitted to it, knob by knob.
+- Notes die away the way the TD-3's do; DECAY sets how long they last, accents are louder rather than brighter, and slides glide at the device's speed.
+- TUNING spans what a TD-3's knob spans (about 9.6 semitones either way), so three o'clock on the plate is three o'clock on the device. If you had moved TUNING before, set it again by ear.
+- RESONANCE builds up like the TD-3's — gently at first, strongly towards the top — and the filter is brighter and closer at high CUTOFF and RESONANCE.
+- The on-screen keyboard opens at three octaves.
+- DAW version: Link Audio — the simulator's sound goes into the Ableton Link session for Live to receive.
+
+With the TD-3 as output nothing changes: the sound is the device's own.
+
+## 1.4.0 — 2026-09-16
+
+A wider step row, MIDI export, touch screens, and a Beta ring.
+
+- The sixteen step cells now fill the plate. ACCENT and SLIDE sit under HELP and LIBRARY as two tall keys: a click puts an accent or a slide on the selected step, or, while REC is armed, on the next note you enter.
+- When the track bay is off screen a TRACK tab appears beside the KEYBOARD tab. The REC key is red.
+- Timeline: click a bar to land the window on it; the strip stays still while you drag the window.
+- **MIDI export**: the MIDI key on the plate exports the pattern as a one-loop `.mid` file into your library folder — add that folder to Places in Live's browser and drag the file into a clip slot. The command line has `--export-midi` for the same.
+- **Touch screens**: a finger on a Windows, macOS or Linux touch screen switches the interface to the touch style — long-press tips, tap instead of scroll — without any setting.
+- **Updates**: a third ring under the setup key, *Beta builds*, next to the latest and the one-behind rings. The update check and Report an issue now go through shop.td3-studio.com; no GitHub account or token in the app.
+- Help: the right USB cables and adapters, including the USB-C rules that also bite on a desktop.
+- Windows, DAW build: TD3Studio-DAW-Setup installs beside the standard app and follows an Ableton Link session for tempo and start.
+- **iPad and iPhone**: TD3 Studio is on the App Store, with the interface made for touch.
+
+
 ## 1.3.0 — 2026-09-11
 
 Pattern length on the plate, and an update ring.
